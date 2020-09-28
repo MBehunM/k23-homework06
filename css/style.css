@@ -1,0 +1,32 @@
+body {
+	background-color: #d1e4ff;
+}
+
+.content {
+	padding: 0 30px;
+	max-width: 680px;
+	background-color: #fff;
+	margin: -25px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 80px;
+}
+
+.codebg {
+	background-color: #f0e6d6;
+}
+
+.kbdbg {
+	background-color: #eadcea;
+}
+
+.sampbg {
+	background-color: #eadcdc;
+}
+
+.blockquotestyle {
+	background-color: #eadcea;
+	border-left: 2px solid #b496b4;
+	margin: 0;
+	padding: 13px 98px 13px 60px
+}
