@@ -1,32 +1,109 @@
+* {
+	text-decoration: none;
+}
+
 body {
-	background-color: #d1e4ff;
+    background-color: #d1e4ff;
+    font-family: Arial, Courier New, sans-serif;
 }
 
 .content {
-	padding: 0 30px;
-	max-width: 680px;
-	background-color: #fff;
-	margin: -25px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 80px;
+    padding: 0 30px;
+    max-width: 680px;
+    background-color: #fff;
+    margin: -25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
 }
 
 .codebg {
-	background-color: #f0e6d6;
+    background-color: #f0e6d6;
+}
+
+a {
+	color: 	#2780e3;
+	border-bottom: 2px solid #2780e3;
 }
 
 .kbdbg {
-	background-color: #eadcea;
+    background-color: #eadcea;
 }
 
 .sampbg {
-	background-color: #eadcdc;
+    background-color: #eadcdc;
+}
+
+.italictext {
+    font-style: italic;
+}
+
+.quotestype {
+    quotes: "«""»"
+}
+
+.boldtext {
+    font-weight: bold;
+}
+
+.underlinetext {
+    text-decoration: underline;
+}
+
+.linethrough {
+    text-decoration: line-through;
+}
+
+.yellowbgc {
+	background-color: #ffff00;
+}
+
+.alignsup {
+	vertical-align: super;
+	font-size: 10px;
+}
+
+.alignsub {
+	vertical-align: sub;
+	font-size: 10px;	
+}
+
+.smalltxt {
+	font-size: 10px;
+	vertical-align: middle;
+}
+
+.abbrstyle {
+	text-decoration: underline;
 }
 
 .blockquotestyle {
-	background-color: #eadcea;
-	border-left: 2px solid #b496b4;
-	margin: 0;
-	padding: 13px 98px 13px 60px
+    background-color: #eadcea;
+    border-left: 2px solid #b496b4;
+    margin: 0;
+    padding: 10px 60px 10px 30px
+}
+
+.prebg {
+    background-color: #f0e6d6;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.listmargin {
+	margin: 16px 0;
+}
+
+.dtstyle {
+	font-weight: bold;
+	font-style: italic;
+}
+
+.ddmrgbottom {
+	margin-bottom: 16px;	
+}
+
+.datatable {
+	border: 1px solid #b496b4;
+	
 }
