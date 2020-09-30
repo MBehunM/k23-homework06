@@ -1,5 +1,5 @@
 * {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 body {
@@ -9,7 +9,7 @@ body {
 
 .content {
     padding: 0 30px;
-    max-width: 680px;
+    max-width: 780px;
     background-color: #fff;
     margin: -25px;
     margin-left: auto;
@@ -22,8 +22,8 @@ body {
 }
 
 a {
-	color: 	#2780e3;
-	border-bottom: 2px solid #2780e3;
+    color: #2780e3;
+    border-bottom: 2px solid #2780e3;
 }
 
 .kbdbg {
@@ -46,6 +46,10 @@ a {
     font-weight: bold;
 }
 
+.normaltextstyle {
+	font-style: normal;
+}
+
 .underlinetext {
     text-decoration: underline;
 }
@@ -55,26 +59,26 @@ a {
 }
 
 .yellowbgc {
-	background-color: #ffff00;
+    background-color: #ffff00;
 }
 
 .alignsup {
-	vertical-align: super;
-	font-size: 10px;
+    vertical-align: super;
+    font-size: 10px;
 }
 
 .alignsub {
-	vertical-align: sub;
-	font-size: 10px;	
+    vertical-align: sub;
+    font-size: 10px;
 }
 
 .smalltxt {
-	font-size: 10px;
-	vertical-align: middle;
+    font-size: 10px;
+    vertical-align: middle;
 }
 
 .abbrstyle {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 .blockquotestyle {
@@ -84,6 +88,10 @@ a {
     padding: 10px 60px 10px 30px
 }
 
+.allwhitespaces {
+	white-space: pre;
+}
+
 .prebg {
     background-color: #f0e6d6;
     padding: 10px;
@@ -91,19 +99,39 @@ a {
 }
 
 .listmargin {
-	margin: 16px 0;
+    margin: 16px 0;
 }
 
 .dtstyle {
-	font-weight: bold;
-	font-style: italic;
+    font-weight: bold;
+    font-style: italic;
 }
 
 .ddmrgbottom {
-	margin-bottom: 16px;	
+    margin-bottom: 16px;
 }
 
-.datatable {
-	border: 1px solid #b496b4;
-	
+.tableheader {
+	margin-top: 30px;
+}
+
+.tabledata {
+    width: 100%;
+    border: 1px solid #b496b4;
+    border-spacing: 0 0;
+}
+
+.tablecell {
+    border: 1px solid #b496b4;
+    padding: 10px;
+}
+
+.thstyle {
+    background-color: #eadcea;
+    font-weight: normal;
+}
+
+.footerstyle {
+	margin: 15px 0;
+	font-size: 12px;
 }
