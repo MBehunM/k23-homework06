@@ -17,6 +17,10 @@ body {
     padding-top: 80px;
 }
 
+.h2size {
+	font-size: 18px;
+}
+
 .codebg {
     background-color: #f0e6d6;
 }
